@@ -1,0 +1,1163 @@
+/* 初始化样式开始 */
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color: #757575;
+}
+a,
+a:hover{
+    text-decoration: none;
+    color: #32cae0;
+}
+ul,ol{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+button{
+    border: 0;
+}
+i,b{
+    font-style: normal;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+} */
+/* 初始化样式结束 */
+
+/* 顶部导航栏开始 */
+.header .top-nav{
+    overflow: hidden;
+    color: #666666;
+    font-size: 12px;
+}
+.header .top-nav ul{
+    float: right;
+    padding-top: 5px;
+}
+.header .top-nav ul li{
+    float: left;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+.header .top-nav ul li:last-child{
+    border: 0;
+}
+/* 顶部导航栏结束 */
+/* logo层开始 */
+.logo{
+    margin-top: 28px;
+    overflow: hidden;
+}
+.logo .logo-img{
+    float: left;
+    margin-right: 175px;
+}
+.logo .logo-search{
+    float: left;
+    font-size: 0;
+}
+.logo .logo-search input{
+    width: 500px;
+    padding: 10px 16px;
+    border: 2px solid #00d0d4;
+    border-radius: 6px 0 0 6px;
+    font-size: 14px;
+}
+.logo .logo-search button{
+    width: 70px;
+    height: 44.8px;
+    /* border: 2px solid #00d0d4; */
+    border-left: 0;
+    background: linear-gradient(116deg,#00d0d4 5%,#00c5c3 51%,#9effa4 100%);
+    vertical-align: top;
+    border-radius: 0 6px 6px 0;
+}
+.logo .logo-search button svg{
+    font-size: 20px;
+    color: white;
+}
+.logo .logo-call{
+    float: right;
+}
+.logo .logo-call .call-left{
+    width: 46px;
+    height: 46px;
+    background-color: #fdf5ec;
+    font-size: 13px;
+    text-align: center;
+    color: #ff8316;
+    float: left;
+}
+.logo .logo-call .call-rigth{
+    float: right;
+}
+.logo .logo-call .call-rigth div{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 12px;
+}
+.logo .logo-call .call-rigth span{
+    float: right;
+    color: #00d0d4;
+
+}
+/* logo层结束(头部层结束) */
+
+/* 内容层导航条开始 */
+.main{
+
+}
+.main .main-nav{
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(90deg,#00d0d4 19%,#00c5c3 58%,#9effa4 100%);
+}
+.main .main-nav ul li{
+    width: 60px;
+    float: left;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    cursor:pointer;
+}
+.main .main-nav ul li:first-child{
+    background-color: #00bcd4;
+}
+.main .main-nav ul li:hover{
+    background-color: #00bcd4;
+}
+/* 内容层导航条结束 */
+/* 购票层开始 */
+.pay-ticket{
+    height: 324px;
+    width: 720px;
+    background-color:#00d0d4;
+    /* background: linear-gradient(90deg,#00d0d4 19%,#00c5c3 10%,white 100%); */
+    margin-top: 15px;
+    padding: 6px;
+    position: relative;
+}
+.pay-ticket .ticket-left{
+    height: 100%;
+    width: 720px;
+    overflow: hidden;
+    
+}
+
+.pay-ticket .ticket-left .ticket-left-nav{
+    float: left;
+}
+.pay-ticket .ticket-left .ticket-left-nav ul li{
+    width: 72px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.pay-ticket .ticket-left .ticket-left-nav ul li:first-child{
+    background-color: white;
+    color: #00d0d4;
+}
+.pay-ticket .ticket-left .ticket-left-nav ul li:hover{
+    background-color: white;
+    color: #00d0d4;
+}
+.pay-ticket .ticket-left .ticket-left-con{
+    width: 635px;
+    height: 100%;
+    background-color: white;
+    float: left;
+    padding:10px 16px;
+    font-size: 16px;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-con-top{
+    border-bottom: 1px solid #00d0d4;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-con-top span{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    color: #999999;
+    padding-bottom: 12px;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-con-top span:first-child{
+    font-weight: bold;
+    color: #3f3f3f;
+    border-bottom: 2px solid #00bcd4;
+}
+.pay-ticket .ticket-left .ticket-left-con .radio{
+    font-size: 12px;
+}
+.pay-ticket .ticket-left .ticket-left-con .radio input{
+    margin-left: 24px;
+    margin-right: 4px;
+    font-size: 12px;
+    vertical-align: -2.5px;
+    margin-top: 20px;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-iptTxte{
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-iptTxte input{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 60px;
+    padding: 5px;
+    font-size: 12px;
+    width: 200px;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-sec{
+    margin-left:20px ;
+    font-size: 13px;
+    margin-top: 25px;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-sec button{
+    padding: 10px 32px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 170px;
+    background: orange;
+}
+.pay-ticket .ticket-left .ticket-left-con .ticket-saf ul li{
+    float: left;
+    margin-left: 20px;
+    color: #0196bf;
+    font-weight: bold;
+    font-size: 14px;
+}
+.pay-ticket .ticket-right-img{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: -220px;
+}
+.pay-ticket .ticket-right-img img{
+    height: 324px;
+}
+/* 购票层结束 */
+/* 今日优惠层开始 */
+.discounts{
+    overflow: hidden;
+    /* background-color: pink; */
+    margin-top: 26px;
+}
+.main .discounts .discounts-left{
+    width: 950px;
+    overflow: hidden;
+    /* background-color: skyblue; */
+    float: left;
+}
+.main .discounts .discounts-left h4{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eceef3;
+    color: #00bcd4;
+}
+.main .discounts .discounts-left a{
+    float: right;
+    font-weight: normal;
+    color: #757575;
+    font-size: 16px;
+}
+.main .discounts .discounts-left a:hover{
+    color: #00bcd4;
+}
+.main .discounts .discounts-left>a::after{
+    content: ">";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #00d0d4;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 10px;
+    vertical-align: 1px;
+}
+.main .discounts .discounts-left ul{
+    width: 470px;
+    float: left;
+}
+.main .discounts .discounts-left ul li{
+    float: left;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+}
+.main .discounts .discounts-left ul li:hover{
+    border: 1px solid #00bcd4;
+}
+.main .discounts .discounts-left ul li img{
+    width:396px
+}
+.main .discounts .discounts-left ul li:first-child{
+    position: relative;
+    margin-bottom: 20px;
+}
+.main .discounts .discounts-left ul li .bg-black{
+    position: absolute;
+    right: -61px;
+    height: 264px;
+    width: 178px;
+    background-color: #333333;
+    padding: 14px;
+    box-sizing: border-box;
+    color: white;
+}
+.main .discounts .discounts-left ul li .bg-black span{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 30px;
+}
+.main .discounts .discounts-left ul li .bg-black i{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 60px;
+}
+.main .discounts .discounts-left ul li .bg-black b{
+    color: #ff6524;
+    font-size: 20px;
+}
+.main .discounts .discounts-left ul li .bg-black b::after{
+    content: "起";
+    font-size: 12px;
+}
+.main .discounts .discounts-left ul li:nth-child(2),
+.main .discounts .discounts-left ul li:nth-child(3){
+    width: 227px;
+}
+.main .discounts .discounts-left ul li:nth-child(2) img,
+.main .discounts .discounts-left ul li:nth-child(3) img{
+    width: 227px;
+    height: 170px;
+}
+.main .discounts .discounts-left ul li:nth-child(2) span,
+.main .discounts .discounts-left ul li:nth-child(3) span{
+    display: block;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 300px;
+    font-size: 14px;
+    color: #333;
+}
+.main .discounts .discounts-left ul li:nth-child(2) b,
+.main .discounts .discounts-left ul li:nth-child(3) b{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.main .discounts .discounts-left ul li:nth-child(2) i,
+.main .discounts .discounts-left ul li:nth-child(3) i{
+    font-style: normal;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: #ff7400;
+    font-size: 18px;
+    display: block;
+    padding-bottom: 4px;
+}
+.main .discounts .discounts-left ul li:nth-child(2) i::after,
+.main .discounts .discounts-left ul li:nth-child(3) i::after{
+    content: "起";
+    font-size: 10px;
+}
+.main .discounts .discounts-rig{
+    float: right;
+    width: 218px;
+    
+}
+.main .discounts .discounts-rig span{
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+/* 今日优惠层结束 */
+/* 当季热门度假开始 */
+.main .holiday{
+    overflow: hidden;
+}
+.main .holiday h4{
+    margin-top: 62px;
+    color: #33335f;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #eceef3;
+}
+.main .holiday h4 svg{
+    color: #00bcd4;
+    font-size: 16px;
+    vertical-align: -1px;
+    margin-right: 10px;
+}
+.main .holiday .holiday-left{
+    float: left;
+    height: 550px;
+    width: 215px;
+    /* background-color: pink; */
+    margin-top: 14px;
+}
+.main .holiday .holiday-left ul{
+    width: 100%;
+    height: 105px;
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+.main .holiday .holiday-left ul:last-child{
+    margin-bottom: 0;
+}
+.main .holiday .holiday-left ul h5{
+    color:#333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main .holiday .holiday-left ul li{
+    float: left;
+    margin-right: 22px;
+    margin-top: 8px;
+}
+.main .holiday .holiday-left ul li a{
+    color: #666666;
+}
+.main .holiday .holiday-left ul li a:hover{
+    color: #00bcd4;
+}
+.main .holiday .holiday-right{
+    float: right;
+    margin-top: 14px;
+    height: 550px;
+    width: 968px;
+    /* background-color: skyblue; */
+}
+.main .holiday .holiday-right ul li{
+    float: left;
+    width: 230px;
+    height: 265px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    position: relative;
+}
+.main .holiday .holiday-right ul li a{
+    display: block;
+    width: 230px;
+    height: 265px;
+    border: 1px solid #eeeeee;
+    color:#333333;
+    
+}
+.main .holiday .holiday-right ul li a:hover{
+    border: 1px solid #00bcd4;
+}
+.main .holiday .holiday-right ul li a img{
+    width: 100%;
+    height: 161px;
+}
+.main .holiday .holiday-right ul li a span{
+    padding-left: 11px;
+    padding-top: 17px;
+    display: block;
+    font-weight: 550;
+}
+.main .holiday .holiday-right ul li a span i{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 26px;
+    color: #ff7400;
+}
+.main .holiday .holiday-right ul li a span b{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffde00;
+    width: 131px;
+    height: 60px;
+    font-size: 14px;
+    text-align: center;
+}
+.main .holiday .holiday-right ul li a span b h6{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+.main .holiday .holiday-right ul li a strong{
+    position: absolute;
+    right: 1px;
+    top: 0;
+    width: 46px;
+    height: 38px;
+    background-color: #ff4401;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+.main .holiday .holiday-right ul li a strong::after{
+    content: "";
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    width: 0; 
+    height: 0;
+    border: 23px solid transparent;
+    border-top: 23px solid #ff4401;
+}
+/* 当季热门度假结束 */
+/* 轮播图层开始 */
+.main .advertising{
+    padding-top: 30px;
+    overflow: hidden;
+}
+.main .advertising .advertising-left{
+    width: 945px;
+    height: 288px;
+    float: left;
+    margin-right: 29px;
+}
+.main .advertising .advertising-right{
+    /* height: 288px; */
+    float: left;
+}
+.main .advertising .advertising-right h6{
+    color:#333333;
+}
+.main .advertising .advertising-right ul li{
+    font-size: 12px;
+    margin-bottom: 6.5px;
+}
+.main .advertising .advertising-right ul li a{
+    color: #999999;
+}
+.main .advertising .advertising-right ul li a:hover{
+    text-decoration: underline;
+}
+/* 轮播图层结束 */
+/* 单季景点开始 */
+.main .spot{
+    overflow: hidden;
+}
+.main .spot h4{
+    margin-top: 62px;
+    color: #33335f;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #eceef3;
+}
+.main .spot h4 svg{
+    color: #00bcd4;
+    font-size: 16px;
+    vertical-align: -1px;
+    margin-right: 10px;
+}
+.main .spot .spot-left{
+    float: left;
+    height: 550px;
+    width: 215px;
+    /* background-color: pink; */
+    margin-top: 14px;
+}
+.main .spot .spot-left ul{
+    width: 100%;
+    height: 168px;
+    /* border: 1px solid black; */
+    margin-bottom: 38px;
+    font-size: 12px;
+}
+.main .spot .spot-left ul:last-child{
+    margin-bottom: 0;
+}
+.main .spot .spot-left ul h5{
+    color:#333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main .spot .spot-left ul li{
+    float: left;
+    margin-right: 22px;
+    margin-top: 8px;
+}
+.main .spot .spot-left ul li a{
+    color: #666666;
+}
+.main .spot .spot-left ul li a:hover{
+    color: #00bcd4;
+}
+.main .spot .spot-right{
+    float: right;
+    margin-top: 14px;
+    height: 550px;
+    width: 968px;
+}
+.main .spot .spot-right ul li{
+    float: left;
+    width: 230px;
+    height: 265px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    position: relative;
+}
+.main .spot .spot-right ul li a{
+    display: block;
+    width: 230px;
+    height: 265px;
+    border: 1px solid #eeeeee;
+    color:#333333;
+    
+}
+.main .spot .spot-right ul li a:hover{
+    border: 1px solid #00bcd4;
+}
+.main .spot .spot-right ul li a img{
+    width: 100%;
+    height: 161px;
+}
+.main .spot .spot-right ul li a span{
+    padding-left: 11px;
+    padding-top: 17px;
+    display: block;
+    font-weight: 550;
+}
+.main .spot .spot-right ul li a span i{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7400;
+    position: absolute;
+    bottom: 8px;
+}
+.main .spot .spot-right ul li a span b{
+    font-weight: normal;
+    font-size: 12px;
+    display: block;
+    color: #aaaaaa;
+    padding-top: 5px;
+}
+/* 单季景点结束 */
+/* 旅游攻略开始 */
+.main .strategy{
+    overflow: hidden;
+}
+.main .strategy .w>h4{
+    margin-top: 62px;
+    color: #33335f;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #eceef3;
+}
+.main .strategy h4 svg{
+    color: #00bcd4;
+    font-size: 16px;
+    vertical-align: -1px;
+    margin-right: 10px;
+}
+.main .strategy h4 span{
+    display: inline-block;
+    margin-left: 150px;
+}
+.main .strategy h4 span a{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0 34px;
+}
+.main .strategy h4 span a:first-child{
+    border-right: 1px solid #ccc;
+}
+.main .strategy h4 span a svg{
+    margin: 0;
+}
+.main .strategy h4 i{
+    float: right;
+}
+.main .strategy h4 i a{
+    color: #757575;
+    font-weight: normal;
+    font-size: 12px;
+}
+.main .strategy h4 i a:hover{
+    color: #00bcd4;
+}
+.main .strategy h4 i a::after{
+    content: ">";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    border-radius: 50%;
+    color: white;
+    background-color: #00bcd4;
+    margin-left: 7px;
+}
+.main .strategy .strategy-con{
+    margin-top: 16px;
+}
+.main .strategy .strategy-con .strategy-left{
+    height: 362px;
+    width: 240px;
+    float: left;
+    /* background-color: pink; */
+}
+.main .strategy .strategy-con .strategy-left h4{
+    font-size: 16px;
+    color: #333333;
+}
+.main .strategy .strategy-con .strategy-left h4:nth-of-type(2){
+    padding-top: 20px;
+}
+.main .strategy .strategy-con .strategy-left ul li{
+    /* padding-top: 16px; */
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+.main .strategy .strategy-con .strategy-left ul li a{
+    display: inline-block;
+    color: #9e9e9e;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    font-weight: normal;
+}
+.main .strategy .strategy-con .strategy-left ul li a:hover{
+    color: #00bcd4;
+}
+.main .strategy .strategy-con .strategy-right{
+    float: right;
+    width: 945px;
+    overflow: hidden;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-nav{
+    overflow: hidden;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-nav ul li{
+    float: left;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-nav ul li a{
+    color: #666666;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-nav ul li a.a-bg{
+    background-color: #00bcd4;
+    color: white;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li{
+    float: left;
+    margin-left: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li:first-child{
+    margin-left: 0;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li:nth-child(4),
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li:nth-child(5){
+    margin-top: 16px;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a img{
+    width: 241px;
+    height: 158px;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li:first-child a img{
+    width: 100%;
+    height: 100%;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a span{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: white;
+    box-shadow:-1px 1px 22px 23px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    font-weight: 550;
+    padding-left: 10px;
+    bottom: -37px;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a span i{
+    display: block;
+    padding-top: 10px;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a span i img{
+    border-radius: 50%;
+    float: left;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a span i b{
+    float: left;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 12px;
+    color: #ccc;
+    font-weight: normal;
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a span i b strong{
+    color: white;
+}
+@keyframes mov{
+    to{
+        bottom: 8px;
+    }
+}
+.main .strategy .strategy-con .strategy-right .strategy-right-img ul li a:hover span{
+    animation: mov 0.3s forwards;
+}
+/* 旅游攻略结束 */
+/* 骆驼书开始 */
+.main .camelBook{
+    overflow: hidden;
+}
+.main .camelBook .w>h4{
+    margin-top: 62px;
+    color: #33335f;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #eceef3;
+    overflow: hidden;
+    position: relative;
+}
+.main .camelBook h4 .camelBook-title{
+    float: left;
+}
+.main .camelBook h4 svg{
+    color: #00bcd4;
+    font-size: 16px;
+    vertical-align: -3px;
+    margin-right: 10px;
+}
+.main .camelBook h4 i{
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+.main .camelBook h4 i a{
+    color: #757575;
+    font-weight: normal;
+    font-size: 12px;
+}
+.main .camelBook h4 i a:hover{
+    color: #00bcd4;
+}
+.main .camelBook h4 i a::after{
+    content: ">";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    border-radius: 50%;
+    color: white;
+    background-color: #00bcd4;
+    margin-left: 7px;
+}
+
+.main .camelBook h4 ul li{
+    float: left;
+    margin-left: 30px;
+}
+.main .camelBook h4 ul li:first-child{
+    margin-left: 170px;
+}
+.main .camelBook h4 ul li:first-child a.b-bg{
+    color: #00bcd4;
+    border-bottom: 2px solid #00bcd4;
+}
+.main .camelBook h4 ul li a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    display: block;
+    padding: 8px 10px;
+}
+.main .camelBook h4 ul li a:hover{
+    color: #00bcd4;
+    border-bottom: 2px solid #00bcd4;
+}
+.main .camelBook .camelBook-left{
+    /* height: 340px; */
+    overflow: hidden;
+    width: 230px;
+    /* background-color: pink; */
+    float: left;
+    margin-top: 15px;
+}
+.main .camelBook .camelBook-left h4{
+    font-size: 16px;
+    color: #333333;
+}
+.main .camelBook .camelBook-left h4:nth-of-type(2){
+    padding-top: 10px;
+}
+.main .camelBook .camelBook-left ul li{
+    /* padding-top: 16px; */
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+.main .camelBook .camelBook-left ul li a{
+    display: inline-block;
+    color: #9e9e9e;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    font-weight: normal;
+}
+.main .camelBook .camelBook-left ul li a:hover{
+    color: #00bcd4;
+}
+
+.main .camelBook .camelBook-right{
+    /* height: 340px; */
+    overflow: hidden;
+    width: 950px;
+    float: right;
+    margin-top: 15px;
+}
+.main .camelBook .camelBook-right ul li{
+    float: left;
+    margin-right: 14px;
+    position: relative;
+}
+.main .camelBook .camelBook-right ul li:last-child{
+    margin-right: 0;
+}
+.main .camelBook .camelBook-right ul li img{
+    width: 227px;
+}
+.main .camelBook .camelBook-right ul li .camelBook-shade{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    color: white;
+    padding-left: 18px;
+    padding-top: 38px;
+    display: none;
+}
+.main .camelBook .camelBook-right ul li .camelBook-shade span{
+    font-size: 26px;
+    font-weight: normal;
+}
+.main .camelBook .camelBook-right ul li .camelBook-shade i{
+    font-size: 26px;
+    border-bottom: 2px solid white;
+}
+.main .camelBook .camelBook-right ul li .camelBook-shade p{
+    padding-top: 35px;
+    font-size: 16px;
+}
+.main .camelBook .camelBook-right ul li .camelBook-shade a{
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 29px;
+    margin-top: 16px;
+}
+/* 骆驼书结束 */
+/* 下载客户端开始开始 */
+.main .camel-down{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    background: linear-gradient(116deg,#00d0d4 5%,#00c5c3 51%,#9effa4 100%);
+    
+}
+.main .camel-down .luotuo{
+    margin-top: 42px;
+}
+.main .camel-down .erweima{
+    width: 130px;
+    margin-left: 600px;
+    margin-top: 42px;
+}
+/* 下载客户端开始结束 */
+/* footer层开始 */
+.footer{
+    margin-top: 30px;
+    font-size: 12px;
+    color: #999999;;
+}
+.footer .footer-top{
+    overflow: hidden;
+}
+.footer .footer-top ul{
+    float: left;
+}
+.footer .footer-top ul li{
+    float: left;
+    margin-right: 15px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #333;
+}
+.footer .footer-top ul li a{
+    color: #999999;
+}
+.footer .footer-top ul li a:hover{
+    color: #ff6600;
+}
+.footer .footer-bottom{
+    overflow: hidden;
+}
+.footer .footer-bottom .one{
+    border-top: 1px solid #eeeeee;
+    padding-bottom: 10px;
+}
+.footer .footer-bottom .one ul {
+    padding-left: 235px;
+    padding-top: 13px;
+}
+.footer .footer-bottom .one ul li{
+    float: left;
+    margin-left: 14px;
+    padding-right: 10px;
+    border-right: 1px solid #a699b3;
+    font-size: 12px;
+}
+.footer .footer-bottom .one ul li:last-child{
+    border: 0;
+}
+.footer .footer-bottom .two{
+    margin-left: 100px;
+}
+.footer .footer-bottom .three{
+    margin-top: 10px;
+    margin-left: 553px;
+}
+.footer .footer-bottom .four{
+    margin-left: 332px;
+    margin-top: 10px;
+}
+.footer .footer-bottom .f-bg {
+    margin-left: 382px;
+    margin-bottom: 100px;
+}
+.footer .footer-bottom .f-bg ul li{
+    float: left;
+    border: 1px solid #cfd7e2;
+    width: 60px;
+    height: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer .footer-bottom .f-bg ul li:nth-child(1){
+    width: 60px;
+}
+.footer .footer-bottom .f-bg ul li:nth-child(2){
+    background-image:url(../images/f02.png);
+    background-position: -101px;
+}
+.footer .footer-bottom .f-bg ul li:nth-child(3){
+    width: 87px;
+    background-image:url(../images/f02.png);
+    background-position: 186px;
+}
+.footer .footer-bottom .f-bg ul li:nth-child(4){
+    width: 97px;
+    background-image:url(../images/f02.png);
+    background-position: 97px;
+}
+/* footer层结束 */
+/* 侧边栏 */
+.aside{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 34px;
+    background-color: #7c8994;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+
+.aside .del{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.aside .del:hover{
+    background-color: #6e7983;
+}
+.aside ul{
+    padding-top: 100px;
+
+}
+.aside ul li{
+    margin-bottom: 10px;
+}
+.aside ul li:first-child{
+    margin-bottom: 100px;
+}
+.aside ul li:last-child{
+    margin-top: 100px;
+}
+.aside ul li:last-child img{
+    position: absolute;
+    top: 475px;
+    left: 34px;
+    display: none;
+}
+.aside ul li:last-child:hover img{
+    display: block;
+}
+.aside ul li a{
+    display: block;
+    color: white;
+}
+.aside ul li a:hover{
+    background-color: white;
+    color: #7c8994;
+}
+.aside ul li a span{
+    font-size: 10px;
+}
+/* 展开 */
+.ZK{
+    background-image: url(../images/icons6.png);
+    height: 49px;
+    width: 57px;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    background-position: -46px -32px;
+    cursor: pointer;
+}
+
+

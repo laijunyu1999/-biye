@@ -1,0 +1,31 @@
+/* 初始化样式开始 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color: #757575;
+}
+a,
+a:hover{
+    text-decoration: none;
+    color: #32cae0;
+}
+ul,ol{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+button{
+    border: 0;
+}
+i,b{
+    font-style: normal;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 初始化样式结束 */

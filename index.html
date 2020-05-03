@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【去哪儿网】机票查询预订，酒店预订，旅游团购，度假搜索，门票预订-去哪儿网Qunar.com</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/commonality.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="go-where">
+        <!-- 头部层 -->
+        <header class="header">
+            <!-- 顶部导航栏开始 -->
+            <nav class="top-nav">
+                <div class="w">
+                    <ul>
+                        <li>请 <a href=""> 登录 </a> 或 <a href=""> 注册</a></li>
+                        <li  style="cursor: pointer;">
+                            <svg style="vertical-align: -1px;" class="bi bi-envelope" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M14 3H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M.071 4.243a.5.5 0 0 1 .686-.172L8 8.417l7.243-4.346a.5.5 0 0 1 .514.858L8 9.583.243 4.93a.5.5 0 0 1-.172-.686z" clip-rule="evenodd"/>
+                                <path d="M6.752 8.932l.432-.252-.504-.864-.432.252.504.864zm-6 3.5l6-3.5-.504-.864-6 3.5.504.864zm8.496-3.5l-.432-.252.504-.864.432.252-.504.864zm6 3.5l-6-3.5.504-.864 6 3.5-.504.864z"/>
+                            </svg>                        
+                            消息
+                            <svg  style="vertical-align: -1px;" class="bi bi-caret-down-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                        </li>
+                        <li style="cursor: pointer;">
+                            查看订单
+                            <svg  style="vertical-align: -1px;" class="bi bi-caret-down-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                        </li>
+                        <li>积分商城</li>
+                        <li>联系客服</li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- 顶部导航栏结束 -->
+            <!-- logo层开始 -->
+            <div class="logo">
+                <div class="w">
+                    <div class="logo-img">
+                        <img src="./images/logo.png" alt="">
+                    </div>
+                    <div class="logo-search">
+                        <input type="text" placeholder="搜索目的地">
+                        <button>
+                            <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" clip-rule="evenodd"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="logo-call">
+                        <div class="call-left">
+                            <svg class="bi bi-phone" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" clip-rule="evenodd"/>
+                            </svg>
+                            <br>
+                            <span>24小时</span>
+                        </div>
+                        <div class="call-rigth">
+                            <div>国内客服<span>95117</span></div>
+                            <div>国际客服<span>(+8610)82872677</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- logo层结束 -->
+        </header>
+        <!-- 头部层结束 -->
+        <!-- 内容层开始 -->
+        <main class="main">
+            <!-- 内容层导航条开始 -->
+            <nav class="main-nav">
+                <div class="w">
+                    <ul>
+                        <li>首页</li>
+                        <li>机票</li>
+                        <li>酒店</li>
+                        <li>团购</li>
+                        <li>度假</li>
+                        <li>游轮</li>
+                        <li>门票</li>
+                        <li>火车票</li>
+                        <li>攻略</li>
+                        <li>当地人</li>
+                        <li>车车</li>
+                        <li>汽车票</li>
+                        <li>境外</li>
+                        <li>保险</li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- 内容层导航条结束 -->
+            <!-- 购票层开始 -->
+            <div class="w">
+                <div class="pay-ticket">
+                    <div class="ticket-left">
+                        <div class="ticket-left-nav">
+                            <ul>
+                                <li>机票</li>
+                                <li>酒店</li>
+                                <li>火车票</li>
+                                <li>度假</li>
+                                <li>门票</li>
+                                <li>团购</li>
+                                <li>车车</li>
+                                <li>自由行</li>
+                            </ul>
+                        </div>
+                        <div class="ticket-left-con">
+                            <div class="ticket-con-top">
+                                <span>国内机票</span>
+                                <span>国际·港澳台机票</span>
+                            </div>
+                            <div class="ticket-con-center">
+                                <div class="radio" id="radio">
+                                    <label for="mal"><input type="radio" name="dan" id="mal" checked>单程</label>
+                                    <label for="mel"><input type="radio" name="dan" id="mel">往返</label>
+                                </div>
+                                <div class="ticket-iptTxte">
+                                    <input type="text" placeholder="出发">
+                                    <input type="date" placeholder="日期">
+                                    <input type="text" placeholder="到达">
+                                    <input type="date" placeholder="日期" disabled id="JY">
+                                </div>
+                                <div class="ticket-sec">
+                                    <span>可实时搜索 <b>28万</b> 条国内国际航线</span>
+                                    <button>立即搜索</button>
+                                </div>
+                                <div class="ticket-saf">
+                                    <ul>
+                                        <li>
+                                            <svg class="bi bi-exclamation-triangle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 5zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" clip-rule="evenodd"/>
+                                              </svg>
+                                            全程保证预定保障·去哪儿都放心
+                                        </li>
+                                        <li>
+                                            <svg class="bi bi-server" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M13 2c0-1.105-2.239-2-5-2S3 .895 3 2s2.239 2 5 2 5-.895 5-2z"/>
+                                                <path d="M13 3.75c-.322.24-.698.435-1.093.593C10.857 4.763 9.475 5 8 5s-2.857-.237-3.907-.657A4.881 4.881 0 0 1 3 3.75V6c0 1.105 2.239 2 5 2s5-.895 5-2V3.75z"/>
+                                                <path d="M13 7.75c-.322.24-.698.435-1.093.593C10.857 8.763 9.475 9 8 9s-2.857-.237-3.907-.657A4.881 4.881 0 0 1 3 7.75V10c0 1.105 2.239 2 5 2s5-.895 5-2V7.75z"/>
+                                                <path d="M13 11.75c-.322.24-.698.435-1.093.593-1.05.42-2.432.657-3.907.657s-2.857-.237-3.907-.657A4.883 4.883 0 0 1 3 11.75V14c0 1.105 2.239 2 5 2s5-.895 5-2v-2.25z"/>
+                                              </svg>
+                                            正规商家
+                                        </li>
+                                        <li>
+                                            <svg class="bi bi-shield-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" d="M5.187 1.025C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 0 1 2.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 0 1-2.418 2.3 6.942 6.942 0 0 1-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 0 1-1.007-.586 11.192 11.192 0 0 1-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 0 1 2.415 1.84a61.11 61.11 0 0 1 2.772-.815z" clip-rule="evenodd"/>
+                                              </svg>
+                                            支付安全
+                                        </li>
+                                        <li>
+                                            <svg class="bi bi-lock-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="11" height="9" x="2.5" y="7" rx="2"/>
+                                                <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z" clip-rule="evenodd"/>
+                                              </svg>
+                                            售后无忧
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ticket-left-con"  style="display: none;">2</div>
+                        <div class="ticket-left-con"  style="display: none;">3</div>
+                        <div class="ticket-left-con"  style="display: none;">4</div>
+                        <div class="ticket-left-con"  style="display: none;">5</div>
+                        <div class="ticket-left-con"  style="display: none;">6</div>
+                        <div class="ticket-left-con"  style="display: none;">7</div>
+                        <div class="ticket-left-con"  style="display: none;">8</div>
+
+
+
+                    </div>
+                    <div class="ticket-right-img">
+                        <img src="./images/play.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 购票层结束 -->
+            <!-- 今日优惠层开始 -->
+            <div class="discounts">
+                <div class="w">
+                    <div class="discounts-left" id="YH">
+                        <h4>
+                            今日优惠
+                            <a href="#">更多优惠</a>
+                        </h4>
+                        <ul>
+                            <li>
+                                <a href="./shopping.html"><img src="./images/d01.jpg" alt=""></a>
+                                <div class="bg-black">
+                                    <span>广州-尚天然国际温泉小镇,2天跟团游</span>
+                                    <i>惠州尚天然国际温泉小镇温泉纯玩2日有(童话客栈+早餐+温泉,送保险)</i>
+                                    <b>￥289</b>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./shopping.html"><img src="./images/d05.jpg" alt="">
+                                <span>广州-惠州 6天跟团游</span>
+                                <b>广州奥特曼夏令营</b>
+                                <i>￥4580</i>
+                            </a></li>
+                            <li><a href="./shopping.html"><img src="./images/d03.jpg" alt="">
+                                <span>广州-从化市 2天自由行</span>
+                                <b>广州从化碧泉空中温泉酒店</b>
+                                <i>￥908</i>
+                            </a></li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="./shopping.html"><img src="./images/d04.jpg" alt=""></a>
+                                <div class="bg-black">
+                                    <span>广州当地游,5天跟团游</span>
+                                    <i>门票全含广州+深圳+珠海纯玩五日游|地王大厦-黄金海岸-中英街-环岛游等</i>
+                                    <b>￥1330</b>
+                                </div>
+                            </li>
+                            <li><a href="./shopping.html"><img src="./images/d02.jpg" alt="">
+                                <span>佛山-惠州 2天跟团游</span>
+                                <b>公司包团定制</b>
+                                <i>￥399</i>
+                            </a></li>
+                            <li><a href="./shopping.html"><img src="./images/d06.jpg" alt="">
+                                <span>深圳-佛山 13天跟团游</span>
+                                <b>2020深圳夏令营</b>
+                                <i>￥6380</i>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="discounts-rig">
+                        <span>广告推荐</span>
+                        <img src="./images/1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 今日优惠层结束 -->
+            <!-- 当季热门度假开始 -->
+            <div class="holiday">
+                <div class="w">
+                    <h4>
+                        <svg class="bi bi-brightness-high" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" clip-rule="evenodd"/>
+                          </svg>
+                        当季热门度假
+                    </h4>
+                    <div class="holiday-left">
+                        <ul>
+                            <h5>周边游</h5>
+                            <li><a href="#">清远</a></li>
+                            <li><a href="#">惠州</a></li>
+                            <li><a href="#">阳江</a></li>
+                            <li><a href="#">双月湾</a></li>
+                            <li><a href="#">长隆旅游度假区</a></li>
+                            <li><a href="#">南昆山云顶温泉</a></li>
+                            <li><a href="#">珠海御温泉</a></li>
+                            <li><a href="#">巽寮湾</a></li>
+                        </ul>
+                        
+                        <ul>
+                            <h5>国内游</h5>
+                            <li><a href="#">丽江</a></li>
+                            <li><a href="#">三亚</a></li>
+                            <li><a href="#">张家界</a></li>
+                            <li><a href="#">桂林</a></li>
+                            <li><a href="#">青海</a></li>
+                            <li><a href="#">厦门</a></li>
+                            <li><a href="#">呼伦贝尔</a></li>
+                            <li><a href="#">九寨沟</a></li>
+                            <li><a href="#">大理</a></li>
+                        </ul>
+                        <ul>
+                            <h5>出境游</h5>
+                            <li><a href="#">马尔代夫</a></li>
+                            <li><a href="#">日本</a></li>
+                            <li><a href="#">巴厘岛</a></li>
+                            <li><a href="#">泰国</a></li>
+                            <li><a href="#">土耳其</a></li>
+                            <li><a href="#">普吉岛</a></li>
+                            <li><a href="#">塞班岛</a></li>
+                            <li><a href="#">新加坡</a></li>
+                            <li><a href="#">瑞士</a></li>
+                        </ul>
+                        <ul>
+                            <h5>签证</h5>
+                            <li><a href="#">日本</a></li>
+                            <li><a href="#">泰国</a></li>
+                            <li><a href="#">韩国</a></li>
+                            <li><a href="#">美国</a></li>
+                            <li><a href="#">澳大利亚</a></li>
+                            <li><a href="#">南非</a></li>
+                            <li><a href="#">台湾</a></li>
+                            <li><a href="#">新加坡</a></li>
+                            <li><a href="#">马来西亚</a></li>
+                        </ul>
+                    </div>
+                    <div class="holiday-right" id="DJ">
+                        <ul>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h01.jpg" alt="">
+                                    <span>含全程大巴+4晚住宿
+                                        <i>￥ 1330</i>
+                                        <b>
+                                            <h6>广州</h6>
+                                            5天跟团游
+                                        </b>
+                                    </span>
+                                    <strong>热卖</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h02.jpg" alt="">
+                                    <span>含往返飞机票(含税)+7晚住宿
+                                        <i>￥ 2210</i>
+                                        <b>
+                                            <h6>广州-丽江</h6>
+                                            8天跟团游
+                                        </b>
+                                    </span>
+                                </a>
+                            </li>
+                            <li><a href="shopping.html">
+                                <img src="./images/h03.jpg" alt="">
+                                <span>含往返飞机票+4晚住宿
+                                    <i>￥ 2007</i>
+                                    <b>
+                                        <h6>广州-三亚</h6>
+                                        5天跟团游
+                                    </b>
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h04.jpg" alt="">
+                                    <span>含全程大巴+9晚住宿
+                                        <i>￥ 2680</i>
+                                        <b>
+                                            <h6>广州-惠州</h6>
+                                            10天跟团游
+                                        </b>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h05.jpg" alt="">
+                                    <span>含往返火车票+4晚住宿
+                                        <i>￥ 1759</i>
+                                        <b>
+                                            <h6>广州-桂林</h6>
+                                            5天跟团游
+                                        </b>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h06.jpg" alt="">
+                                    <span>含往返火车票+5晚住宿
+                                        <i>￥ 2345</i>
+                                        <b>
+                                            <h6>广州-张家界</h6>
+                                            6天跟团游
+                                        </b>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h07.jpg" alt="">
+                                    <span>含4晚住宿
+                                        <i>￥ 2608</i>
+                                        <b>
+                                            <h6>广州-丽江</h6>
+                                            5天跟团游
+                                        </b>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shopping.html">
+                                    <img src="./images/h08.jpg" alt="">
+                                    <span>含往返飞机票+2晚住宿
+                                        <i>￥ 1518</i>
+                                        <b>
+                                            <h6>广州-厦门</h6>
+                                            3天跟团游
+                                        </b>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 当季热门度假结束 -->
+            <!-- 轮播图层开始 -->
+            <div class="advertising">
+                <div class="w">
+                    <div class="advertising-left">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./images/q1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/q2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/q3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div>
+                    <div class="advertising-right">
+                        <ul>
+                            <h6>旅行资讯</h6>
+                            <li><a href="#">中华人民共和国外交部安全提醒</a></li>
+                            <li><a href="#">中华人民共和国文化和旅游部出行提示</a></li>
+                            <li><a href="#">请留意：坦桑尼亚将实施“禁塑令”</a></li>
+                            <li><a href="#">带这些东西去韩国，可能被罚6万元!</a></li>
+                            <li><a href="#">反网络诈骗专栏</a></li>
+                            <li><a href="#">去哪儿网已通过支付卡产业数据安全标准</a></li>
+                            <li><a href="#">“放心消费在社区”系列活动</a></li>
+                            <h6>旅行小贴士</h6>
+                            <li><a href="#">去哪儿网郑重承诺"诚信经营 放心消费"</a></li>
+                            <li><a href="#">服药的最佳时间</a></li>
+                            <li><a href="#">吃药讲究姿势</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播图层结束 -->
+            <!-- 当前景点门票层开始 -->
+            <div class="spot">
+                <div class="w">
+                    <h4>
+                        <svg class="bi bi-house-door" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" clip-rule="evenodd"/>
+                            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" clip-rule="evenodd"/>
+                        </svg>
+                        当季景点门票
+                    </h4>
+                    <div class="spot-left">
+                        <ul>
+                            <h5>热门景点</h5>
+                            <li><a href="#">珠江夜游蓝海豚游船</a></li>
+                            <li><a href="#">长隆国际大马戏剧院</a></li>
+                            <li><a href="#">深圳欢乐谷</a></li>
+                            <li><a href="#">东部华侨城</a></li>
+                            <li><a href="#">珠海御温泉</a></li>
+                            <li><a href="#">华南植物园</a></li>
+                            <li><a href="#">聚龙湾天然温泉度假村</a></li>
+                            <li><a href="#">香草世界</a></li>
+                        </ul>
+                        <ul>
+                            <h5>国内目的地</h5>
+                            <li><a href="#">武汉</a></li>
+                            <li><a href="#">北京</a></li>
+                            <li><a href="#">上海</a></li>
+                            <li><a href="#">三亚</a></li>
+                            <li><a href="#">成都</a></li>
+                            <li><a href="#">厦门</a></li>
+                            <li><a href="#">广州</a></li>
+                            <li><a href="#">深圳</a></li>
+                            <li><a href="#">杭州</a></li>
+                            <li><a href="#">大连</a></li>
+                            <li><a href="#">桂林</a></li>
+                            <li><a href="#">张家界</a></li>
+                            <li><a href="#">重庆</a></li>
+                            <li><a href="#">青岛</a></li>
+                            <li><a href="#">苏州</a></li>
+                            <li><a href="#">南京</a></li>
+                            <li><a href="#">丽江</a></li>
+                            <li><a href="#">天津</a></li>
+                            <li><a href="#">昆明</a></li>
+                        </ul>
+                        <ul>
+                            <h5>品质一日游</h5>
+                            <li><a href="#">世界之窗</a></li>
+                            <li><a href="#">莲花山公园</a></li>
+                            <li><a href="#">深圳平安金融中心</a></li>
+                            <li><a href="#">华盖路步行街</a></li>
+                            <li><a href="#">深圳湾公园</a></li>
+                            <li><a href="#">大芬油画村</a></li>
+                            <li><a href="#">清晖园</a></li>
+                            <li><a href="#">黄埔军校旧址纪念馆</a></li>
+                            <!-- <li><a href="#">沙湾古镇</a></li> -->
+                        </ul>
+                        <!-- <ul>
+                            <h5>签证</h5>
+                            <li><a href="#">日本</a></li>
+                            <li><a href="#">泰国</a></li>
+                            <li><a href="#">韩国</a></li>
+                            <li><a href="#">美国</a></li>
+                            <li><a href="#">澳大利亚</a></li>
+                            <li><a href="#">南非</a></li>
+                            <li><a href="#">台湾</a></li>
+                            <li><a href="#">新加坡</a></li>
+                            <li><a href="#">马来西亚</a></li>
+                        </ul> -->
+                    </div>
+                    <div class="spot-right" id="JD">
+                        <ul>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j01.jpg" alt="">
+                                    <span>深圳野生动物园
+                                        <b>岭南印象园江门上龙船竞渡</b>
+                                        <i>￥ 178.5</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j02.jpg" alt="">
+                                    <span>岭南印象园
+                                        <b>载入吉尼斯世界纪录，被誉为活的文物</b>
+                                        <i>￥ 44</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li><a href="./shopping.html">
+                                <img src="./images/j03.jpg" alt="">
+                                <span>南风古灶旅游区
+                                    <b>狂欢无罪，够胆你就来</b>
+                                    <i>￥ 19.6</i>
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j04.jpg" alt="">
+                                    <span>深圳欢乐谷
+                                        <b>放养式动物园让你和动物们"零距离"</b>
+                                        <i>￥ 219</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j05.jpg" alt="">
+                                    <span>南粤苑
+                                        <b>曲折逶迤，百转回廊的南越建筑菁华</b>
+                                        <i>￥ 26</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j06.jpg" alt="">
+                                    <span>黄腾峡天门悬廊
+                                        <b>刺激、美好、难忘的旅游时光</b>
+                                        <i>￥ 133</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j07.jpg" alt="">
+                                    <span>增城白水寨风景名胜区
+                                        <b>北回归线上的瑰丽翡翠</b>
+                                        <i>￥ 54.9</i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./shopping.html">
+                                    <img src="./images/j08.jpg" alt="">
+                                    <span>世界之窗
+                                        <b>全球微缩景点,精彩演绎、娱乐项目</b>
+                                        <i>￥ 210</i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 当前景点门票层结束 -->
+            <!-- 旅游攻略开始 -->
+            <div class="strategy">
+                <div class="w">
+                    <h4>
+                        <svg class="bi bi-book-half" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 0 0 1 2.82z" clip-rule="evenodd"/>
+                            <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609z" clip-rule="evenodd"/>
+                        </svg>
+                        旅行攻略
+                        <span>
+                            <a href="#">
+                                <svg class="bi bi-pencil-square" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" clip-rule="evenodd"/>
+                                </svg>
+                                创建形成
+                            </a>
+                            <a href="#">
+                                <svg class="bi bi-file-earmark" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 1h5v1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6h1v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z"/>
+                                    <path d="M9 4.5V1l5 5h-3.5A1.5 1.5 0 0 1 9 4.5z"/>
+                                  </svg>
+                                发布游记
+                            </a>
+                        </span>
+                        <i><a href="#">更多精彩攻略</a></i>
+                    </h4>
+                    <div class="strategy-con">
+                        <div class="strategy-left">
+                            <h4>国内热门目的地</h4>
+                            <ul>
+                                <li>西安<a href="#" title="探寻千年秦俑，长安留一梦">探寻千年秦俑，长安留一梦</a></li>
+                                <li>贵州<a href="#" title="多彩贵州，解锁苗寨新玩法">多彩贵州，解锁苗寨新玩法</a></li>
+                                <li>青岛<a href="#" title="蔚蓝海边，寻找夏天的风">蔚蓝海边，寻找夏天的风</a></li>
+                                <li>上海<a href="#" title="畅游海昌，蓝色海洋里的亲子乐园">畅游海昌，蓝色海洋里的亲子乐园</a></li>
+                            </ul>
+                            <h4>海外热门目的地</h4>
+                            <ul>
+                                <li>冲绳<a href="#" title="邂逅蓝色大海里的美丽传说">邂逅蓝色大海里的美丽传说</a></li>
+                                <li>普吉岛<a href="#" title="安达曼海上的明珠，爱在普吉">安达曼海上的明珠，爱在普吉</a></li>
+                                <li>新加坡<a href="#" title="狮城亲子游，花园城市别样精彩">狮城亲子游，花园城市别样精彩</a></li>
+                                <li>长滩岛<a href="#" title="细腻沙滩享受惬意好时光">细腻沙滩享受惬意好时光</a></li>
+                            </ul>
+                        </div>
+                        <div class="strategy-right">
+                            <div class="strategy-right-nav">
+                                <ul id="GL">
+                                    <li><a href="javascript:;" class="a-bg">趣味亲子游</a></li>
+                                    <li><a href="javascript:;">旅游也要出大片</a></li>
+                                    <li><a href="javascript:;">旅行邂逅文艺范</a></li>
+                                    <li><a href="javascript:;">韵味古城游</a></li>
+                                    <li><a href="javascript:;">畅游海岛好时光</a></li>
+                                </ul>
+                            </div>
+                            <div class="strategy-right-img" id="strategy-right-img">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v01.jpg" alt="">
+                                            <span id="strategT">呼伦贝尔亲子游,草原很热情
+                                                <i>
+                                                    <img src="./images/y01.jpg" style="width: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v02.jpg" alt="">
+                                            <span>驾一叶扁舟,寻瓯江往事
+                                                <i>
+                                                    <img src="./images/y02.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v03.jpg" alt="">
+                                            <span>不负夏日好时光,泗乎太安逸
+                                                <i>
+                                                    <img src="./images/y03.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v04.jpg" alt="">
+                                            <span>探访日本,一部家庭旅行画册
+                                                <i>
+                                                    <img src="./images/y04.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v05.jpg" alt="">
+                                            <span>厦门,带娃出行与幸福同行
+                                                <i>
+                                                    <img src="./images/y05.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                
+                                <ul  style="display: none;">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v11.jpg" alt="">
+                                            <span>一起向西去大理,咔嚓一场慢时光
+                                                <i>
+                                                    <img src="./images/y01.jpg" style="width: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v12.jpg" alt="">
+                                            <span>驾一叶扁舟,寻瓯江往事
+                                                <i>
+                                                    <img src="./images/y02.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v13.jpg" alt="">
+                                            <span>不负夏日好时光,泗乎太安逸
+                                                <i>
+                                                    <img src="./images/y03.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v14.jpg" alt="">
+                                            <span>探访日本,一部家庭旅行画册
+                                                <i>
+                                                    <img src="./images/y04.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v15.jpg" alt="">
+                                            <span>厦门,带娃出行与幸福同行
+                                                <i>
+                                                    <img src="./images/y05.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                
+                                <ul style="display: none;">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v21.jpg" alt="">
+                                            <span>在建水蒙自沙溪邂逅诗和远方
+                                                <i>
+                                                    <img src="./images/y01.jpg" style="width: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v22.jpg" alt="">
+                                            <span>唯美桂林,文艺范旅行札记
+                                                <i>
+                                                    <img src="./images/y02.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v23.jpg" alt="">
+                                            <span>釜山小众旅游攻略待签收
+                                                <i>
+                                                    <img src="./images/y03.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v24.jpg" alt="">
+                                            <span>别样厦门之小清新偶遇人间烟火气
+                                                <i>
+                                                    <img src="./images/y04.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v25.jpg" alt="">
+                                            <span>东京跨年拥抱喧嚣,偶遇文艺
+                                                <i>
+                                                    <img src="./images/y05.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <ul style="display: none;">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v31.jpg" alt="">
+                                            <span>黄山,宏村---畅玩青黛白墙
+                                                <i>
+                                                    <img src="./images/y01.jpg" style="width: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v32.jpg" alt="">
+                                            <span>12日畅玩希腊,你想看的这里都有
+                                                <i>
+                                                    <img src="./images/y02.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v33.jpg" alt="">
+                                            <span>魅力湘西,烟雨古城在凤凰
+                                                <i>
+                                                    <img src="./images/y03.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v34.jpg" alt="">
+                                            <span>埃及沧海桑田,都是一转眼
+                                                <i>
+                                                    <img src="./images/y04.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v35.jpg" alt="">
+                                            <span>平遥古城全新游玩攻略
+                                                <i>
+                                                    <img src="./images/y05.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <ul style="display: none;">
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v41.jpg" alt="">
+                                            <span>醉美花岛岛攻略,漂洋过海来看你
+                                                <i>
+                                                    <img src="./images/y01.jpg" style="width: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v42.jpg" alt="">
+                                            <span>趁,此身未老,我们去马尔代夫
+                                                <i>
+                                                    <img src="./images/y02.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v43.jpg" alt="">
+                                            <span>海鸥遍地的人间仙境一海驴岛
+                                                <i>
+                                                    <img src="./images/y03.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v44.jpg" alt="">
+                                            <span>南纬8°巴厘岛
+                                                <i>
+                                                    <img src="./images/y04.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="./images/v45.jpg" alt="">
+                                            <span>超全攻略带你玩转涠洲岛
+                                                <i>
+                                                    <img src="./images/y05.jpg" style="width: 35px;height: 35px;" alt="">
+                                                    <b><strong>郭文文530</strong>　|　2019-06-6出发<br>共五天　|　323张照片</b>
+                                                </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 旅游攻略结束 -->
+            <!-- 骆驼书开始 -->
+            <div class="camelBook">
+                <div class="w">
+                    <h4>
+                        <div class="camelBook-title">
+                            <svg class="bi bi-book" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 0 0 1 2.82z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0 1 15 2.82z" clip-rule="evenodd"/>
+                              </svg>
+                            骆驼书
+                        </div>      
+                        <ul>
+                            <li><a href="javascript:;" class="b-bg">专题</a></li>
+                            <li><a href="javascript:;">亚洲</a></li>
+                            <li><a href="javascript:;">欧洲</a></li>
+                            <li><a href="javascript:;">北美洲</a></li>
+                            <li><a href="javascript:;">大洋洲</a></li>
+                        </ul>
+                        <i><a href="#">更多精彩攻略</a></i>
+                    </h4>
+                    <div class="camelBook-left">
+                        <h4>热门出境骆驼书</h4>
+                        <ul>
+                            <li>日本花见<a href="#" title="烂漫春光，赏尽樱吹雪">烂漫春光，赏尽樱吹雪</a></li>
+                            <li>素可泰<a href="#" title="承载泰国寺庙文化的王朝古都">承载泰国寺庙文化的王朝古都</a></li>
+                            <li>芭提雅<a href="#" title="风光旖旎的东方夏威夷">风光旖旎的东方夏威夷</a></li>
+                            <li>胡志明市<a href="#" title="湄公河上风情浪漫的明珠">湄公河上风情浪漫的明珠</a></li>
+                        </ul>
+                        <h4>热门海岛骆驼书</h4>
+                        <ul>
+                            <li>甲米<a href="#" title="诗情画意、宛如天堂秘境的热带半岛">诗情画意、宛如天堂秘境的热带半岛</a></li>
+                            <li>巴厘岛<a href="#" title="极具人文&热带风情的度假天堂">极具人文&热带风情的度假天堂</a></li>
+                            <li>苏梅岛<a href="#" title="拒绝好莱坞选景荣耀的纯天然海岛">拒绝好莱坞选景荣耀的纯天然海岛</a></li>
+                            <li>毛里求斯<a href="#" title="印度洋的珍珠，欧洲的后花园">印度洋的珍珠，欧洲的后花园</a></li>
+                        </ul>
+                    </div>
+                    <div class="camelBook-right">
+                        <ul id="camelBook-ul">
+                            <li>
+                                <img src="./images/b01.jpg" alt="">
+                                <div class="camelBook-shade">
+                                    <span>北海道</span><br>
+                                    <i>Hokkaido</i>
+                                    <p>作者:谢牧阳<br>更新时间:2019-09-23</p>
+                                    <a href="#">下载</a>                          
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/b02.jpg" alt="">
+                                <div class="camelBook-shade">
+                                    <span>迪拜</span><br>
+                                    <i>Dubai</i>
+                                    <p>作者:毛一鸣<br>更新时间:2015-03-16</p>
+                                    <a href="#">下载</a>                          
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/b03.jpg" alt="">
+                                <div class="camelBook-shade">
+                                    <span>高雄</span><br>
+                                    <i>Kaohsiung</i>
+                                    <p>作者:吴东峻<br>更新时间:2015-03-16</p>
+                                    <a href="#">下载</a>                          
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./images/b04.jpg" alt="">
+                                <div class="camelBook-shade">
+                                    <span>新加坡</span><br>
+                                    <i>Singapore</i>
+                                    <p>作者:玮玮(为食主义)<br>更新时间:2019-09-26</p>
+                                    <a href="#">下载</a>                          
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 骆驼书结束 -->
+            <!-- 下载客户端开始 -->
+            <div class="camel-down">
+                <div class="w">
+                    <img src="./images/luotuo.png" alt="" class="luotuo">
+                    <img src="./images/erweima.png" alt="" class="erweima">
+                </div>
+            </div>
+            <!-- 下载客户端结束 -->
+        </main>
+        <!-- 内容层结束 -->
+        <!-- footer开始 -->
+        <footer class="footer">
+            <div class="w">
+                <div class="footer-top">
+                    <ul>
+                        <li>酒店</li>
+                        <li><a href="">卓克基土司官寨</a></li>
+                        <li><a href="">坪头羌寨</a></li>
+                        <li><a href="">古尔沟</a></li>
+                        <li><a href="">唐克镇</a></li>
+                        <li><a href="">川主寺</a></li>
+                        <li><a href="">四姑娘山</a></li>
+                        <li><a href="">九寨沟口旅游客运中心</a></li>
+                        <li><a href="">九寨沟甲蕃古城</a></li>
+                        <li><a href="">九寨沟沟口</a></li>
+                        <li><a href="">孟屯河谷</a></li>
+                        <li><a href="">中查沟</a></li>
+                        <li><a href="">九寨仙池</a></li>
+                        <li><a href="">娜姆湖附近</a></li>
+                        <li><a href="">四姑娘山双桥沟</a></li>
+                        <li><a href="">五花海附近</a></li>
+                        <li><a href="">三江生态旅游区附近</a></li>
+                        <li><a href="">九寨沟风景区</a></li>
+                        <li><a href="">九寨沟天堂</a></li>
+                        <li><a href="">九曲黄河第一湾</a></li>
+                        <li><a href="">仁吉喜目谷</a></li>
+                        <li><a href="">九寨千古情</a></li>
+                        <li><a href="">中国羌族博物馆</a></li>
+                        <li><a href="">九寨沟汽车站</a></li>
+                        <li><a href="">九寨黄龙机场</a></li>
+                        <li><a href="">卡龙沟自然风景区</a></li>
+                        <li><a href="">巴厘岛风景区</a></li>
+                        <li><a href="">巴厘岛风景区</a></li>
+                        <li><a href="">杭州旅游风景区</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>攻略</li>
+                        <li><a href="">鼓浪屿旅游攻略</a></li>
+                        <li><a href="">上海旅游攻略</a></li>
+                        <li><a href="">张家界旅游攻略</a></li>
+                        <li><a href="">云南旅游攻略</a></li>
+                        <li><a href="">普吉岛旅游攻略</a></li>
+                        <li><a href="">千岛湖旅游攻略</a></li>
+                        <li><a href="">台湾旅游攻略</a></li>
+                        <li><a href="">武汉旅游攻略</a></li>
+                        <li><a href="">乌镇旅游攻略</a></li>
+                        <li><a href="">九寨沟旅游攻略</a></li>
+                        <li><a href="">西安旅游攻略</a></li>
+                        <li><a href="">青岛旅游攻略</a></li>
+                        <li><a href="">西塘旅游攻略</a></li>
+                        <li><a href="">西藏旅游攻略</a></li>
+                        <li><a href="">苏州旅游攻略</a></li>
+                        <li><a href="">普陀山旅游攻略</a></li>
+                        <li><a href="">三亚旅游攻略</a></li>
+                        <li><a href="">韩国旅游攻略</a></li>
+                        <li><a href="">香港旅游攻略</a></li>
+                        <li><a href="">厦门旅游攻略</a></li>
+                        <li><a href="">天津旅游攻略</a></li>
+                        <li><a href="">南京旅游攻略</a></li>
+                        <li><a href="">成都旅游攻略</a></li>
+                        <li><a href="">北京旅游攻略</a></li>
+                        <li><a href="">杭州旅游攻略</a></li>
+                        <li><a href="">巴厘岛旅游攻略</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <div class="one">
+                        <ul>
+                            <li>关于Qunar.com</li>
+                            <li>业务合作</li>
+                            <li>加入我们</li>
+                            <li>"严重违规失信"专项整治举报</li>
+                            <li>安全中心</li>
+                            <li>星骆驼公益</li>
+                            <li>About Us</li>
+                        </ul>
+                    </div>
+                    <div class="two">
+                        Copyright ©2019 Qunar.com　京公网安备11010802030542　京ICP备05021087号　京ICP证060856号　营业执照信息　保险经纪资质　(京)-非经营性-2016-0110　去哪儿网客服电话
+                    </div>
+                    <div class="three">
+                        95117
+                    </div>
+                    <div class="four">
+                        违法和不良信息举报电话：010-69194277违法和不良信息举报邮箱：tousu@qunar.com
+                    </div>
+                    <div class="f-bg">
+                        <ul>
+                            <li><img src="./images/f01.gif" style="width: 60px;" alt=""></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer结束 -->
+        <!-- 侧边栏 -->
+        <div class="aside">        
+            <div class="SQ">
+                <span class="del">
+                    <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z" clip-rule="evenodd"/>
+                      </svg>
+                </span>
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"/>
+                              </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M.05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2A2 2 0 0 0 .05 3.555zM16 4.697l-5.875 3.59L16 11.743V4.697zm-.168 8.108L9.157 8.879 8 9.586l-1.157-.707-6.675 3.926A2 2 0 0 0 2 14h12a2 2 0 0 0 1.832-1.195zM0 11.743l5.875-3.456L0 4.697v7.046z"/>
+                              </svg>
+                              <span>消息</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <svg class="bi bi-briefcase-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v1.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 5.884V4.5zm5-2A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z" clip-rule="evenodd"/>
+                              </svg>
+                              <span>订单</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <svg class="bi bi-person-bounding-box" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" clip-rule="evenodd"/>
+                              </svg>
+                              <span>账号</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <svg class="bi bi-fullscreen" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z" clip-rule="evenodd"/>
+                              </svg>
+                            <span>扫码</span>
+                        </a>
+                        <img src="./images/sidecode_v3.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+         <!-- 展开 -->
+         <div class="ZK">       
+        </div>
+    </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+body{
+	width: 100%;
+	font-size: 53px;
+}
+.header ul{
+	background-color: #00AEAE;
+	height: 130px;
+}
+.header li{
+	float: left;
+	margin-left: 32%;
+	line-height: 130px;
+}
+.header .li-1{
+	margin-left: 4%;
+	font-size: 80px;
+}
+.header .li-1 a{
+	color: #81F7F3;
+}
+.header .li-2{
+	color: white;
+}
+.header .li-3{
+	color: #81F7F3;
+}
+.header-2 ul{
+	font-size: 50px;
+	height: 140px;
+	background-color: #00AEAE;
+	padding-left: 6%;
+	padding-top: 5px;
+}
+.header-2 li{
+	float: left;
+	border: 2px solid white;
+	line-height: 120px;
+	width: 45%;
+	padding: 0 5%;
+	text-align: center;
+}
+.header-2 .li-4{
+	background-color: white;
+	color: #00AEAE;
+}
+.header-2 .li-5{
+	color: white;
+}
+.zhanghao{
+	padding-top: 30px;
+	padding-left: 50px;
+	color: #00AEAE;
+}
+
+.zhanghao input{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 55px;
+}
+.zhanghao .input-1{
+	height: 150px;
+	margin-top: 50px;
+}
+.zhanghao .input-2{
+	/*margin-top: 50px;
+	margin-left: 80%;
+	height: 100px;*/
+	position: absolute;
+	left: 10%;
+	margin-top: 50px;
+	width: 80%;
+	padding: 20px 0;
+	color: white;
+	background-color: #00AEAE;
+}
+.button{
+	position: absolute;
+	bottom: 80px;
+	padding-top: 30px;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #9D9D9D;
+	color: #CCCCCC;
+	font-size: 40px;
+}
