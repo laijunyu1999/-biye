@@ -14,5 +14,5 @@ var resPay = window.sessionStorage.getItem('resPay');
 $("#main-Pay").html(resPay);
 //点击购买跳转
 $(".money button").click(function(){
-    window.location.href = "../shoppEnd.html";
+    window.location.href = "./shoppEnd.html";
 });
